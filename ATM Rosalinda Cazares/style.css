@@ -1,0 +1,37 @@
+body {
+  background-image: url(/Blackwater.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-repeat: repeat;
+  }
+}
+
+header {
+  margin-left: 30%;
+}
+
+
+.form {
+  margin-left: 35%;
+  margin-top: 10%;
+  background-color: ghostwhite;
+  max-width: fit-content;
+}
+
+
+
+footer {
+  font-size: smaller;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgrey;
+  max-width: fit-content;
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ATM</title>
+</head>
+
+<body>
+
+    <header>
+        <h1> First National Bank of Blackwater ATM </h1>
+
+    </header>
+
+    <form action="">
+        <h3> Ingresa tu usuario y contraseña para iniciar:</h3>
+        <br> <br><br>
+        <label for=""> Usuario </label>
+        <input type="text" name="u" id="user">
+        <br><br>
+        <label for="">Contraseña</label>
+        <input type="password" name="c" id="pass">
+        <br><br>
+        <input type="button" value="Ingresar" onclick="login(this.form)">
+        <br><br>
+    </form>
+
+
+    <div>
+        <h3>Tu Saldo Disponible es de: </h3>
+        <input type="text" name="verificacion" placeholder="Saldo">
+        <input type="button" value="Verificar" onclick="verificar()">
+        <br>
+        <input type="text" name="deposito" placeholder="Monto a depositar">
+        <input type="button" value="Depositar" onclick="ingresar()">
+        <br>
+        <input type="text" name="retiro" placeholder="Monto a retirar">
+        <input type="button" value="Retirar" onclick="retirar()">
+    </div>
+
+
+
+
+    <footer> Great Plains. Blackwater Region. West Elizabeth State. @rowxxa 2023 </footer>
+
+    <script src="main2.js"></script>
+</body>
+
+</html>
